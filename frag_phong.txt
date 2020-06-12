@@ -1,0 +1,53 @@
+#version 420 core                                                 
+
+     
+
+in vec3 normVnorm;
+in vec3 pos;
+
+out vec4 fColor;  
+
+uniform mat4 PVM; 
+uniform mat4 MV;
+uniform mat4 Vw;
+uniform vec3 L, La, Ld, Ls, Ka, Kd, Ks;
+uniform float Shin;
+
+
+void main(void)                                                   
+{                   
+	vec3 V = normalize(-pos);
+	vec3 newL = vec3(Vw*vec4(L, 1.0f));
+	vec3 normL = normalize(vec3(newL - pos));
+	vec3 R = normalize(-reflect(normL, normVnorm));
+	
+
+	vec3 ambient = La*Ka;
+
+	float dotNL = dot(normVnorm, normL);
+
+	if (dotNL < 0.0f){
+		dotNL = 0.0f;
+	}
+
+	vec3 diffuse = Ld*Kd*dotNL;
+	
+	vec3 specular = vec3(0.0);
+
+	float dotRV = dot(R, V);
+	if (dotRV < 0.0f){
+		dotRV = 0.0f;
+	}
+
+	specular = Ls*Ks * pow(dotRV, Shin);
+	
+	
+
+	vec3 result = ambient + diffuse + specular;
+	fColor = vec4(result, 1.0); 
+
+    //color = abs(vec4(vNorm, 1.0));  
+
+
+    //fColor = color;                                               
+} 
