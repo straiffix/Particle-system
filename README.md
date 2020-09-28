@@ -64,7 +64,7 @@ within a constraint field, and if there is a one distance which all particles ca
 # To Do'es
 There are a lot of options how work can be improved. First, memory allocation of particles is not optimized; In the project meshes are created for each particle, and, even
 after implementing a mesh only with a three vertices, it is still not the best option how memory can be allocated. For example, rendering particles as point sprites can
-reduce number of vertices and improve optimization[3]. Good optimization is required for implementing systems with a huge amount of particles with realistic behaviour, such
+reduce number of vertices and improve optimization. Good optimization is required for implementing systems with a huge amount of particles with realistic behaviour, such
 as realistic smoke or fluids. Also, there could be implemented one shader for both Phong shading and Texture rendering. It was not important during the work, but if it was a
 necessity to create some objects with texture for the scene, it would be relevant to mix shading and texture mapping.
 Fireworks can be improved too. In the project was implemented the basic idea of how they can be looked, but the behaviour of the particles can be computed in more advanced
