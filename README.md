@@ -1,5 +1,5 @@
 # Introduction
-<img src="https://media.giphy.com/media/e4d0JlTz0hU8gCKjWn/giphy.gif">
+<img src="https://media.giphy.com/media/e4d0JlTz0hU8gCKjWn/giphy.gif" >
 This is a report of a project which main purpose was to implement a Particle system in OpenGL library. Particle systems are ubiquitously used in computer graphics for producing
 animated effects such as fire, smoke, clouds, fireworks, etc. Particle systems have been widely used in film and games for visualizing random and unpredictable effects such
 as explosions. In this project was made an attempt to build a basic particle system, which was animated as a firework.
@@ -21,6 +21,7 @@ This works concentrates more on building a particle system, which will handle fi
 - main.cpp - Main file, running application, loading meshes, rendering, animating. 
 
 # Detailed description
+<img src="https://i.imgur.com/FlveLCh.png">
 
 
 **Particle System**
