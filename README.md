@@ -5,11 +5,11 @@ animated effects such as fire, smoke, clouds, fireworks, etc. Particle systems h
 as explosions. In this project was made an attempt to build a basic particle system, which was animated as a firework.
 This works concentrates more on building a particle system, which will handle firework animation. 
 
-![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-Microsoft_Visual_Studio-informational?style=flat&logo=intellij-idea&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-GLSL-informational?style=flat&logo=go&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-C\C++-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Framework-OpenGL-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Editor-Microsoft_Visual_Studio-informational?style=flat&logo=visual-studio&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-GLSL-informational?style=flat&logo=c&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-C\C++-informational?style=flat&logo=c&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Framework-OpenGL-informational?style=flat&logo=opengl&logoColor=white&color=2bbc8a)
 
 
 # Relevant files
